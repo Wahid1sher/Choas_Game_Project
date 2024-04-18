@@ -53,10 +53,6 @@ int main()
     instructionText.setFillColor(Color::White);
     instructionText.setPosition(600, 100);
 
-    // After loading the background texture and creating the sprite
-    FloatRect backgroundBounds = backgroundSprite.getLocalBounds();
-    FloatRect textBounds = instructionText.getLocalBounds();
-
     instructionText.setCharacterSize(48);
 
     // Center the text on the background sprite
