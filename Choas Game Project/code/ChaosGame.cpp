@@ -49,11 +49,9 @@ int main()
     Text instructionText;
     instructionText.setFont(font);
     instructionText.setString("Click to set the vertices of the triangle");
-    instructionText.setCharacterSize(24);
+    instructionText.setCharacterSize(48);
     instructionText.setFillColor(Color::White);
     instructionText.setPosition(600, 100);
-
-    instructionText.setCharacterSize(48);
 
     // Center the text on the background sprite
     FloatRect textRect = instructionText.getLocalBounds();
